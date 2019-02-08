@@ -1,0 +1,174 @@
+/* fonts */
+
+@font-face{
+    font-family: 'Lato-Black';
+    src: url('../fonts/Lato/Lato-Black.ttf');
+}
+
+@font-face{
+    font-family: 'Raleway-ExtraBold';
+    src: url('../fonts/Raleway/Raleway-ExtraBold.ttf');
+}
+
+@font-face{
+    font-family: 'Raleway-SemiBold';
+    src: url('../fonts/Raleway/Raleway-SemiBold.ttf');
+}
+
+@font-face{
+    font-family: 'Raleway-Bold';
+    src: url('../fonts/Raleway/Raleway-Bold.ttf');
+}
+
+@font-face{
+    font-family: 'Raleway-Regular';
+    src: url('../fonts/Raleway/Raleway-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Raleway-Thin';
+    src: url('../fonts/Raleway/Raleway-Thin.ttf');
+}
+
+
+.font-raleway-smb{
+    font-family: 'Raleway-SemiBold';
+}
+
+body {
+    background: #212121;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.font-xl{
+    font-size: 60pt;
+}
+
+.font-raleway-b{
+    font-family: 'Raleway-Bold';
+}
+
+.font-raleway-r{
+    font-family: 'Raleway-Regular';
+}
+
+.font-raleway-th{
+    font-family: 'Raleway-Thin';
+}
+
+.font-raleway-exb{
+    font-family: 'Raleway-ExtraBold';
+}
+
+
+/* end of font config */
+
+.banner-overlay{
+    position: absolute;
+    background-color: rgba(0,0,0, 0.5);
+    background-image: url("../img/pattern.png");
+    background-repeat: repeat;
+    width: 100%;
+    height: 100vh;
+    background-attachment: inherit;
+}
+
+.content-page{
+  margin-top: 80px;
+}
+
+/* Colors */
+
+.theme-color{
+    background-color: #fcc41d !important;
+    color: white !important;
+    box-shadow: none;
+}
+.theme-color:hover{
+  background-color: #fbbc05 !important;
+  box-shadow: none;
+}
+
+.theme-text-color{
+    color:  #FBBC05 !important;
+}
+
+
+.sub-theme-color{
+        color: #d6d6c2 !important;
+}
+
+.fab-links{
+    color: #d6d6c2 !important;
+    font-size: 13pt;
+    font-family: 'Raleway-Regular'
+}
+
+.pagination li {
+    display:inline-block;
+
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+
+    border-width: 0;
+    outline: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+
+  }
+
+  .pagination li:not(.active) > a{
+    color: black !important;
+  }
+
+  .pagination li > a{
+    color: white !important;
+  }
+
+  .pagination li:not(.active):hover a{
+    text-decoration: none;
+    color: black !important;
+  }
+  .pagination li:hover a{
+    text-decoration: none;
+    color: white !important;
+  }
+.btn-light{
+  color:black !important;
+  background-color: #cccccc !important;
+  box-shadow: none;
+}
+.btn-light:hover{
+  background-color: #a6a6a6 !important;
+  box-shadow: none;
+}
+  .nav-link:hover {
+    color: #FBBC05 !important;
+ }
+ 
+ .sign-in{
+   color: #0033cc !important;
+ }
+ 
+ .card-title{
+     letter-spacing: 3px;
+ }
+
+@media screen and (max-width:800px){
+  .card{
+    width: 100%;
+    margin-left:0 !important;
+  }
+  .banner-overlay{
+    height: 170vh;
+
+  }
+  .banner{
+    height: auto;
+  }
+  .content-page{
+    font-size: 12px !important;
+  }
+}
